@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    /*font-family: "Open Sans", sans-serif;*/
+}
+
+main{
+    width: 1366px;
+    height: 2900spx;
+    margin: 0 auto;
+}
+header{
+    width: 1366px;
+    height: 400px;
+    background-color: #1f1d40;
+    background-image: url(../imagenes/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+header .dias{
+    width: 1366px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 4px solid;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+header .logo{
+    width: 1366px;
+    height: 185px;
+    color: white;
+    font-family: "Montserrat", system-ui;
+    font-size: 170%;
+    text-align: center;
+    margin-top: 90px;
+}
+.logo .logo2{
+    width: 1366px;
+    height: 50px;
+    color: white;
+    font-family: "Montserrat", system-ui;
+    font-size: 100%;
+    text-align: center;
+}
+header .nave{
+    width: 1366px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.322);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    transition: .5s;
+}
+nav a:hover{
+    background-color:rgba(128, 127, 127, 0.747);
+    transform: scale(1.2);
+}
+section{
+    width: 1366px;
+    height: 2225px;
+    /*background-color: #f6eff0;*/
+}
+section .titulo{
+    width: 1366px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", system-ui;
+    font-size: 150%;
+    border-bottom: 2px solid;
+}
+section .conferencistas{
+    width: 800px;
+    height: 500px;
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+    /*background-color: #1f1d40;*/
+}
+.conferencistas .foto{
+    width: 250px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    margin-left: 33px;
+    border-bottom: 4px solid;
+    color: #1f1d40;
+}
+.foto img{
+    height: 100%;
+}
+.conferencistas .nombre{
+    font-family: "Montserrat", system-ui;
+    font-size: 120%;
+    margin-left: 25px;
+}
+.conferencistas h3{
+    font-family: "Montserrat", system-ui;
+}
+.conferencistas .texto{
+    width: 700px;
+    height: 200px;
+    float: left;
+    margin-left: 16px;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 125%;
+}
+.conferencistas .fecha{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+section .boletos{
+    width: 500px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boletos p{
+    padding: 20px;
+    background-color: #1f1d40;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    border-radius: 25px 25px 25px 25px;
+    transition: .5s;
+    text-align: center;
+}
+.boletos p:hover{
+    transform: scale(1.1);
+    background-color: #302d68;
+}
+section .mapa{
+    width: 400px;
+    height: 450px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.mapa .lugar{
+    width: 400px;
+    height: 300px;
+    text-align: right;
+    font-family: "Raleway", sans-serif;
+}
+section .video{
+    width: 500px;
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+section .comentarios{
+    width: 500px;
+    height: 900px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+    width: 1366px;
+    height: 250px;
+    background-color: #1f1d40;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
